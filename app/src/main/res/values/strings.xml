@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EllcoRetrofit</string>
+    <string name="sing_in">Вход</string>
+    <string name="repeat">Отправить повторно запрос?</string>
+</resources>
