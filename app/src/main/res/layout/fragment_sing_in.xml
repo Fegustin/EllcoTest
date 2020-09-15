@@ -3,14 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.SingInFragment">
 
     <Button
         android:id="@+id/buttonSingIn"
+        app:icon="@drawable/ic_arrow"
+        app:iconTint="@color/colorBlack"
+        app:iconGravity="end"
+        app:iconSize="19dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sing_in"
         android:layout_gravity="center"
-        android:textColor="@color/colorBlack"/>
+        android:text="@string/sing_in"
+        android:textColor="@color/colorBlack" />
 
 </FrameLayout>
